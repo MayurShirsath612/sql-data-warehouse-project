@@ -79,10 +79,10 @@ gen nvarchar(50)
 
 
 --locA101
-if object_id('bronze.erp_loc_101' , 'u') is not null
-   drop table bronze.erp_loc_101
+if object_id('bronze.erp_loc_a101' , 'u') is not null
+   drop table bronze.erp_loc_a101
 
-create table bronze.erp_loc_101(
+create table bronze.erp_loc_a101(
 cid	 nvarchar(50),
 cntry nvarchar(50)
 
