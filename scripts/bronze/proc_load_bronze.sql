@@ -122,9 +122,9 @@ begin try
 			-- for erp_loc_a101
 			set @start_time = getdate();
 			print 'Inserting data into bronze.erp_loc_a101....'
-			truncate table bronze.erp_loc_101;
+			truncate table bronze.erp_loc_a101;
 
-			bulk insert bronze.erp_loc_101
+			bulk insert bronze.erp_loc_a101
 			from 'C:\Users\mayur\OneDrive\Desktop\DataWareHouse\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
 			with (
 			   first_row = 2,
