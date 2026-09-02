@@ -102,6 +102,6 @@ create table silver.erp_px_cat_g1v2(
 id	nvarchar(50),
 cat nvarchar(50),
 subcat	nvarchar(50),
-maintainance nvarchar(50),
+maintenance nvarchar(50),
 dwh_create_date datetime2 default getdate()
 );
