@@ -1,4 +1,4 @@
-# Data Catalog for gold layer
+# Data Catalog for Gold Layer
 The details about the fact tables, dimension tables and their data types are mentioned here , which can be used as a standard reference.
 
 ## 1.gold.dim_customers
@@ -17,7 +17,7 @@ The details about the fact tables, dimension tables and their data types are men
 | create_date | DATE | The date and time when the customer record was created. |
 
 
-## 2.gold.dim_products##
+## 2.gold.dim_products
 
 | Column Name          | Data Type    | Description                                                                                          |
 | -------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
